@@ -1,0 +1,64 @@
+{
+  "version": "a_continue_batch40_v1",
+  "seed": 20261120,
+  "parent_formal_step": 11000,
+  "updates": 1000,
+  "save_updates": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000
+  ],
+  "world_size": 4,
+  "effective_batch": 40,
+  "reference_count": 1,
+  "learning_rate": 2e-05,
+  "optimizer": "Resume A 1000 optimizer and FP32 master weights; learning rate 2e-5",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "high_noise_fraction_per_rank": 0.2,
+  "high_noise_sigma_range": [
+    0.98,
+    0.9999
+  ],
+  "base_noise": "upstream shift5 logitnormal",
+  "target_gt_prefix": 0,
+  "text_drop_probability": 0.2,
+  "frames": 81,
+  "resolution": [
+    432,
+    768
+  ],
+  "trainable_rule": "Original self_attn/cam_encoder including related norms/modulations; B/C also train geometry adapter",
+  "selection": "Repeat shuffled original A/B/C 2000-group schedule, with unique per-sample noise seeds; sample group reuse across epochs",
+  "training_groups": 2000,
+  "training_scene_ids": 1583,
+  "dataset_counts": {
+    "multicam": 1595,
+    "syncam": 405
+  },
+  "caption_policy": "Reference only; shared existing caption or generate once under per-reference lock; text embedding online per rank, no new full text cache",
+  "evaluation_guidances": [
+    0
+  ],
+  "evaluation_cases_per_guidance": 64,
+  "evaluation_seed": 456,
+  "evaluation_steps": 35,
+  "evaluation_shift": 5,
+  "auto_evaluation": "After each 100 updates release training GPUs and evaluate g0 on 64 held-out cases, then resume",
+  "microbatch_per_rank": 1,
+  "gradient_accumulation_steps": 10,
+  "accumulated_batch_per_rank": 10,
+  "activation_checkpointing": "block-wise selective: save attention operations; recompute other operations",
+  "gradient_sync": "Manual 64 MiB buckets after 10 microbatches; not context parallelism"
+}

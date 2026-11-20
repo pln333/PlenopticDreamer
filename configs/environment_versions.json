@@ -1,0 +1,13 @@
+{
+  "torch": "2.7.0+cu128",
+  "torchvision": "0.22.0+cu128",
+  "transformers": "4.51.3",
+  "transformer-engine": "2.2+cu128.torch27",
+  "transformer-engine-torch": "not found under this distribution name",
+  "flash-attn": "2.7.3+cu128.torch27",
+  "safetensors": "0.8.0",
+  "numpy": "1.26.4",
+  "opencv-python": "not found under this distribution name",
+  "einops": "0.8.1",
+  "natten": "0.21.0+cu128.torch27"
+}
