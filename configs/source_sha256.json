@@ -11,8 +11,6 @@
   "scripts/plenoptic/prepare_expanded.py": "db4d0c56e282cb1ae14456984e3851f5b7789b8d0571fd4ca55e8586d43796a2",
   "scripts/plenoptic/reconstruct_tokenizer.py": "2acd05d3fcc25ff211a426b34aa200692784105dcc32d227b795fbbff9d010f6",
   "scripts/plenoptic/syncam_data.py": "2af85abda035c03a89636d983d4bf47e313db15ea9ad1ed19fdbe4668bcbf0e0",
-  "scripts/plenoptic432_a_continue/benchmark_caption_read.py": "dd5288851483ffeaf5a6428979f7f789f81a1b6dfcb217a918e7e6e96ba5afc8",
-  "scripts/plenoptic432_a_continue/benchmark_compute.py": "71bdad19442147942fe9a6c7ce088b42083fa9c60155e503d9f0c3a7f0c7b1d6",
   "scripts/plenoptic432_a_continue/bootstrap.py": "c22616676b00a4c72ce669aa178c30d180a101b39f0dea040849ee2b0cc2af67",
   "scripts/plenoptic432_a_continue/cache.py": "b8b9ad826d996fb5ea0f5ca7d19893c1cc2f460d96aab99dd5a7e6a61cbd3636",
   "scripts/plenoptic432_a_continue/camera_temporal_adapter.py": "0f1a2f113939f52476e8ca8e57d5266f6317335f0bd5e77c6e3a8204452a0220",
@@ -27,5 +25,17 @@
   "scripts/plenoptic432_a_continue/text.py": "38ec82c60ad7106bd1374d0fa7e3a9c9ac62c0e1acd875a79f6bf47989d251fa",
   "scripts/plenoptic432_a_continue/train.py": "c2d9ba315346ede04bbc563afeeec3a98fa4b7847158a8b96e29678c63392f8f",
   "scripts/plenoptic432_a_continue/train_fast.py": "60cbc1f51e2725b31b36829fd0daf80708cecda9bbd9bc2457c0664c9c42f32c",
-  "scripts/plenoptic_recovery/caption_recovery.py": "5f3c2a8a3a25627e035f86b8d6cf12e08539df63411da266ff917fb4e4157b88"
+  "scripts/plenoptic_recovery/caption_recovery.py": "5f3c2a8a3a25627e035f86b8d6cf12e08539df63411da266ff917fb4e4157b88",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/conditioner.py": "907f05239a1924609903c314dd5133937ea62c92a6811446e10c27e821eeb9b9",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/config.py": "0550f05315f4142a3b3cad72729abd4d2b47eb1a177517985cd8d76c46becf4c",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/data.py": "9ca2aea18d950a2817673620c80f541d3d8a3f3b3a8867a11c7d2f2d084ebda5",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/experiment/exp_2b.py": "24ce536171069f1ce0a08a3ab12be3b774b6eed094ef44c97217e70457b9aeb2",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/model.py": "d03be34935ac7abcb64974c4455f1fbcb42c47b5e7d0d7e6407dd8ac338127eb",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/configs/multiview_camera/net.py": "5e8438855ff632c11e988b510c18ed2cfbf553dce4f5f0a2754beb1bed287d93",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/models/multiview_camera_ar_video2world_model.py": "78cec3d52dd8bfaf3bbf36931879113cb42016c8c44dce27d46af57412f9457d",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/models/multiview_camera_frameinit_video2world_model.py": "2859a8f0c6e774a2701b2b2182c08455b1906aa1ae72b5c78137f09b50283439",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/models/multiview_camera_video2world_model.py": "2a2d9d42f30748efe2073efc61f395a0b161d480558cda0e4a8d4caf0825f15d",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/networks/dit_multiview_camera.py": "d19c6a3581946374c3fb3244504c03e7e050a19a995fd0914402d84ebbf40382",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/networks/dit_multiview_camera_ar.py": "379af2a3e89993fe8fba12b5fd7acb5ac7ed0cdfeb2619891fa96cca35f8d7c4",
+  "upstream_camera/cosmos_transfer2/_src/predict2/camera/utils.py": "3bd2fca9d0a1434d4ba9e2d1026fcf8529d63f2eb023e55c9e6dd97519d5e7a7"
 }
